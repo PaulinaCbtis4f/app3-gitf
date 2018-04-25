@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <widget xmlns = "http://www.w3.org/ns/widgets"
  xmlns:gap="http://phonegap.com/ns/1.0"
- id = "com.phonegap.app2"
+ id = "com.phonegap.app3"
  version= "1.0.0">
 
-<name> app2 Datos Alumnos </name>
+<name> app3 Dia Mundial de la Bicicleta </name>
 
 <description>
-Aplicacion que muestra los datos del alumno
+Aplicacion que muestra los datos sobre el Dia Mundial de la Bicicleta
 </description>
 
 <author href="https://build.phonegap.com" email="paulina.cbtis4f@gmail.com">
@@ -22,6 +22,14 @@ Paulina Camacho Amador
 <preference name="fullscreen"   value="true"/>
 <preference name="android-installLocation"   value="auto"/>
 <preference name="permissions"   value="INTERNET"/>
+
+<!--Para accesar a paginas en internet-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
+
 
 <!--Plugins -->
 <!-- Core plugins -->
